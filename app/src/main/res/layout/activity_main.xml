@@ -25,5 +25,19 @@
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        app:layout_constraintTop_toBottomOf="@id/btn_bondedBluetooth" />
+
+    <EditText
+        android:id="@+id/et_sendContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/btn_send"
+        app:layout_constraintStart_toStartOf="@id/btn_send"
+        app:layout_constraintTop_toBottomOf="@id/btn_send" />
 
 </android.support.constraint.ConstraintLayout>
